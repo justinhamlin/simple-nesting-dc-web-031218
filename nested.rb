@@ -57,7 +57,7 @@ def dennis_ritchies_language
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages].gsub
+     programmer_hash[:dennis_ritchie][:languages].gsub(/[], "")
 end
 
 def adding_matz
